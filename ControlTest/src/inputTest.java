@@ -5,8 +5,7 @@ public class inputTest {
 		// TODO 키보드로부터 입력 받기
 		System.out.print("입력 :");
 		char input = (char)System.in.read();//입력한것을 아스키코드값으로 가져옴
-		System.out.println("입력받은 값은" + input +"입니다");
-		
+		System.out.println("입력받은 값은" + input +"입니다");		
 		System.in.skip(2);
 		
 		System.out.print("입력 :");
